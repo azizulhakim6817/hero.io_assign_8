@@ -1,4 +1,14 @@
+## Github Repository Live Link:
+
+https://github.com/azizulhakim6817/hero.io_assign_8
+
 # React + Vite
+
+# Project Name:
+
+Hero.io
+
+#
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -17,4 +27,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ### Notes ----------------
 
-1. navbar px--->  px-4 md:px-14
+1. navbar px---> px-4 md:px-14
