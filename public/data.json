@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/V0D0CFjc/demo-app-1.webp",
+    "title": "Chrono Timer Stopwatch App",
+    "companyName": "TimeSoft",
+    "id": 1,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 24,
+    "reviews": 1523,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 883 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/N6CxM6W1/demo-app-2.webp",
+    "title": "FotoMagic Editor App",
+    "companyName": "PixelLab",
+    "id": 2,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 78,
+    "reviews": 8934,
+    "ratingAvg": 4.2,
+    "downloads": 560000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 5884 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rRNLygYB/demo-app-3.webp",
+    "title": "FitTrack Workout Diet Planner",
+    "companyName": "HealthWave",
+    "id": 3,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 55,
+    "reviews": 4321,
+    "ratingAvg": 4.6,
+    "downloads": 340000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 3271 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3ZqrprD/demo-app-4.webp",
+    "title": "LingoLearn Language Learning Game",
+    "companyName": "EduNext",
+    "id": 4,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 88,
+    "reviews": 11000,
+    "ratingAvg": 4.4,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "QuickNotes Sync Notes App",
+    "companyName": "NoteCrew",
+    "id": 5,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 15,
+    "reviews": 2410,
+    "ratingAvg": 4.1,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 390 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "Streamify Music Streaming App",
+    "companyName": "SoundNest",
+    "id": 6,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 120,
+    "reviews": 50123,
+    "ratingAvg": 4.7,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 31623 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "SkyCast Weather Forecast App",
+    "companyName": "MeteoWorks",
+    "id": 7,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 40,
+    "reviews": 3120,
+    "ratingAvg": 4.3,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1860 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "RouteMaster Navigation Maps App",
+    "companyName": "GoMaps",
+    "id": 8,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 200,
+    "reviews": 9000,
+    "ratingAvg": 4.0,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "ShopEasy Online Shopping Deals",
+    "companyName": "Marketly",
+    "id": 9,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 95,
+    "reviews": 23000,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 12400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "PodStream Podcast Audio Player",
+    "companyName": "AudioHouse",
+    "id": 10,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 30,
+    "reviews": 4100,
+    "ratingAvg": 4.2,
+    "downloads": 385000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2580 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "BudgetPal Finance Expense Tracker",
+    "companyName": "FinTrack",
+    "id": 11,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 27,
+    "reviews": 7200,
+    "ratingAvg": 4.4,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 4700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "CookMate Recipe Meal Planner",
+    "companyName": "FoodTech",
+    "id": 12,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 67,
+    "reviews": 2100,
+    "ratingAvg": 4.0,
+    "downloads": 290000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "SafeGuard Mobile Security App",
+    "companyName": "CyberCore",
+    "id": 13,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 85,
+    "reviews": 9800,
+    "ratingAvg": 4.3,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 5900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "SnapPro Professional Camera App",
+    "companyName": "VisionTech",
+    "id": 14,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 60,
+    "reviews": 3500,
+    "ratingAvg": 4.2,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1790 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "NewsWave Daily News App",
+    "companyName": "MediaHub",
+    "id": 15,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 50,
+    "reviews": 7600,
+    "ratingAvg": 4.1,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 4150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "Tripify Travel Booking App",
+    "companyName": "WanderTech",
+    "id": 16,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 90,
+    "reviews": 18000,
+    "ratingAvg": 4.6,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 11100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "BlockQuest Puzzle Adventure Game",
+    "companyName": "PlayStorm",
+    "id": 17,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 150,
+    "reviews": 54000,
+    "ratingAvg": 4.8,
+    "downloads": 6700000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 35500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "PlanMate Task Planner App",
+    "companyName": "OrganizeIt",
+    "id": 18,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 33,
+    "reviews": 5800,
+    "ratingAvg": 4.3,
+    "downloads": 460000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3470 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "ReadMore Ebook Reader App",
+    "companyName": "LitWorld",
+    "id": 19,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide.",
+    "size": 70,
+    "reviews": 12000,
+    "ratingAvg": 4.5,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6950 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/235GQDpQ/demo-app-6.webp",
+    "title": "TalkZone Chat Messaging App",
+    "companyName": "ComNet",
+    "id": 20,
+    "description": "TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. TalkZone is a messaging app offering instant chat, voice, and video calls. Users can create groups, share multimedia files, and use stickers and emojis for interactive communication. The app features secure encryption, notifications, and offline message storage. Perfect for personal and professional use, TalkZone ensures fast, reliable, and secure communication across devices, providing an engaging platform for connecting with friends, family, and colleagues worldwide. ",
+    "size": 105,
+    "reviews": 65000,
+    "ratingAvg": 4.6,
+    "downloads": 7800000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 37500 }
+    ]
+  }
+]

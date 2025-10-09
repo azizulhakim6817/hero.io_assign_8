@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa";
 import logo from "../assets/images/logo.png";
 
@@ -29,23 +29,50 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <Link className="font-semibold" to="/">
+                <NavLink
+                  className={({ isActive }) =>
+                    `font-semibold ${
+                      isActive
+                        ? "text-blue-500 border-b-blue-600"
+                        : "text-gray-700"
+                    }`
+                  }
+                  to="/"
+                >
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link className="font-semibold" to="/app">
+                <NavLink
+                  to="/app"
+                  className={({ isActive }) =>
+                    `font-semibold ${
+                      isActive
+                        ? "text-blue-500 border-b-blue-600"
+                        : "text-gray-700"
+                    }`
+                  }
+                >
                   Apps
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link className="font-semibold" to="/installation">
+                <NavLink
+                  className={({ isActive }) =>
+                    `font-semibold ${
+                      isActive
+                        ? "text-blue-500 border-b-blue-600"
+                        : "text-gray-700"
+                    }`
+                  }
+                  to="/installation"
+                >
                   Installations
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
-          <Link className="flex justify-start items-center gap-1">
+          <Link to="/" className="flex justify-start items-center gap-1">
             <img
               className="h-[30px] md:h-[40px] w-[30px] md:w-[40px] object-cover"
               src={logo}
@@ -59,24 +86,55 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link className="font-semibold" to="/">
+              <NavLink
+                className={({ isActive }) =>
+                  `font-semibold ${
+                    isActive
+                      ? "text-blue-500 border-b-blue-600"
+                      : "text-gray-700"
+                  }`
+                }
+                to="/"
+              >
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link className="font-semibold" to="/app">
+              <NavLink
+                to="/app"
+                className={({ isActive }) =>
+                  `font-semibold ${
+                    isActive
+                      ? "text-blue-500 border-b-blue-600"
+                      : "text-gray-700"
+                  }`
+                }
+              >
                 Apps
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link className="font-semibold" to="/installation">
+              <NavLink
+                className={({ isActive }) =>
+                  `font-semibold ${
+                    isActive
+                      ? "text-blue-500 border-b-blue-600"
+                      : "text-gray-700"
+                  }`
+                }
+                to="/installation"
+              >
                 Installations
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className="btn bg-[#632ee3] text-white">
+          <Link
+            target="_bank"
+            to="https://github.com/"
+            className="btn bg-[#632ee3] text-white"
+          >
             <FaGithub size={18} /> Contribute
           </Link>
         </div>
