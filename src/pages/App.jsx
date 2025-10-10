@@ -2,9 +2,10 @@ import { Link, Search } from "lucide-react";
 import useApps from "../utility/useApps";
 import Cart from "../component/Cart";
 import { useState } from "react";
+import { LayoutGrid } from "lucide-react";
 
 const App = () => {
-  const {apps, loading, error } = useApps();
+  const { apps, loading, error } = useApps();
   const [search, setSearch] = useState("");
 
   const trim = search.trim().toLowerCase() || search.trim().toLocaleUpperCase();
@@ -21,11 +22,18 @@ const App = () => {
     return <p className="text-center mt-10 text-gray-500">Loading...</p>;
   if (error)
     return <p className="text-center mt-10 text-red-500">Error loading apps</p>;
+  if (!apps)
+    return <p className="text-center mt-10 text-gray-500">App not found</p>;
 
   return (
     <div className="mt-8 my-4 mx-4 lg:mx-6 xl:mx-14">
       <div className="text-center mt-4 md:mt-8">
-        <h1 className="text-xl md:text-3xl font-bold">Our All Applications</h1>
+        <div className="flex justify-center items-center gap-3">
+          <h1 className="text-xl md:text-3xl font-bold">
+            Our All Applications
+          </h1>
+          <LayoutGrid className="text-[#632ee3] rotate-12" size={32} />
+        </div>
         <p className="my-4 text-[#627382] text-[14px]">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
@@ -35,13 +43,13 @@ const App = () => {
           (<span className="text-blue-600">{searchApp.length}</span>) Apps Found
         </h4>
         {/* search field */}
-        <div className="px-1 py-1 w-fit flex justify-center items-center gap-2 border border-gray-400 rounded-sm ">
-          <Search size={25} className="text-gray-600 cursor-pointer" />
+        <div className="px-1 py-1 w-fit flex justify-center items-center gap-2 border hover:border-[#632ee3] rounded-sm ">
+          <Search size={18} className="text-gray-700 cursor-pointer" />
           <input
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             type="search"
-            className="outline-none text-sm"
+            className="outline-none  text-sm my-[3px]"
             placeholder="Search Apps"
           />
         </div>
@@ -51,8 +59,8 @@ const App = () => {
         {searchApp && searchApp.length > 0 ? (
           searchApp.map((app, i) => <Cart key={i} apps={app} />)
         ) : (
-          <p className="col-span-full text-center text-gray-500 mt-8 text-lg">
-            ❌ No Apps Found
+          <p className="col-span-full text-center text-gray-500 mt-8 font-bold text-4xl">
+            ❌ No App Found
           </p>
         )}
       </div>

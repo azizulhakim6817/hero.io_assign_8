@@ -1,11 +1,15 @@
 import { Link, NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa";
 import logo from "../assets/images/logo.png";
+import { House } from "lucide-react";
+import { FaAppStore } from "react-icons/fa";
+import { MdInstallDesktop } from 'react-icons/md';
+
 
 const Navbar = () => {
   return (
     <div>
-      <div className="px-4 md:px-14 navbar bg-base-100 shadow-sm">
+      <div className="px-4 lg:px-14 navbar bg-base-100 shadow-sm ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,14 +34,10 @@ const Navbar = () => {
             >
               <li>
                 <NavLink
-                  className={({ isActive }) =>
-                    `font-semibold ${
-                      isActive
-                        ? "text-blue-500 border-b-blue-600"
-                        : "text-gray-700"
-                    }`
-                  }
                   to="/"
+                  className={({ isActive }) =>
+                    isActive ? "active font-semibold" : "font-semibold"
+                  }
                 >
                   Home
                 </NavLink>
@@ -46,11 +46,7 @@ const Navbar = () => {
                 <NavLink
                   to="/app"
                   className={({ isActive }) =>
-                    `font-semibold ${
-                      isActive
-                        ? "text-blue-500 border-b-blue-600"
-                        : "text-gray-700"
-                    }`
+                    isActive ? "active font-semibold" : "font-semibold"
                   }
                 >
                   Apps
@@ -58,16 +54,12 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  className={({ isActive }) =>
-                    `font-semibold ${
-                      isActive
-                        ? "text-blue-500 border-b-blue-600"
-                        : "text-gray-700"
-                    }`
-                  }
                   to="/installation"
+                  className={({ isActive }) =>
+                    isActive ? "active font-semibold" : "font-semibold"
+                  }
                 >
-                  Installations
+                  installation
                 </NavLink>
               </li>
             </ul>
@@ -78,24 +70,21 @@ const Navbar = () => {
               src={logo}
               alt=""
             />
-            <h1 className="text-12px md:text-[18px] font-bold  text-[#632ee3]">
+            <h1 className="hidden md:block text-12px md:text-[18px] font-bold  text-[#632ee3]">
               HERO.IO
             </h1>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 space-x-3">
             <li>
               <NavLink
-                className={({ isActive }) =>
-                  `font-semibold ${
-                    isActive
-                      ? "text-blue-500 border-b-blue-600"
-                      : "text-gray-700"
-                  }`
-                }
                 to="/"
+                className={({ isActive }) =>
+                  isActive ? "active font-semibold" : "font-semibold"
+                }
               >
+                <House size={18} />
                 Home
               </NavLink>
             </li>
@@ -103,28 +92,21 @@ const Navbar = () => {
               <NavLink
                 to="/app"
                 className={({ isActive }) =>
-                  `font-semibold ${
-                    isActive
-                      ? "text-blue-500 border-b-blue-600"
-                      : "text-gray-700"
-                  }`
+                  isActive ? "active font-semibold" : "font-semibold"
                 }
               >
+                <FaAppStore size={20} />
                 Apps
               </NavLink>
             </li>
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `font-semibold ${
-                    isActive
-                      ? "text-blue-500 border-b-blue-600"
-                      : "text-gray-700"
-                  }`
+                  isActive ? "active font-semibold" : "font-semibold"
                 }
                 to="/installation"
               >
-                Installations
+                <MdInstallDesktop size={18}/>Installation
               </NavLink>
             </li>
           </ul>
@@ -135,7 +117,8 @@ const Navbar = () => {
             to="https://github.com/"
             className="btn bg-[#632ee3] text-white"
           >
-            <FaGithub size={18} /> Contribute
+            <FaGithub size={20} />
+            Contribution
           </Link>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center gap-2 md:gap-3 justify-center md:justify-start"
+            className="flex items-center justify-center md:justify-start"
           >
             <img
               className="h-8 md:h-10 w-8 md:w-10 object-cover"
@@ -21,13 +21,6 @@ const Footer = () => {
               HERO.IO
             </h1>
           </Link>
-
-          {/* Copyright */}
-          <div className="flex justify-center md:justify-end">
-            <p className="text-xs md:text-sm text-gray-400 text-center md:text-right">
-              hero.io © {new Date().getFullYear()} - All rights reserved
-            </p>
-          </div>
         </div>
 
         {/* Social Links */}
@@ -78,6 +71,15 @@ const Footer = () => {
             </svg>
           </a>
         </div>
+      </div>
+      <div className=" w-full my-6 border-gray-800  border-b-1"></div>
+      {/* Copyright */}
+
+      <div className="text-center">
+        <p className="text-xs md:text-sm text-gray-400 text-center ">
+          "© {new Date().getFullYear()} Hero.io. Crafted with 🚀 — All rights
+          reserved."
+        </p>
       </div>
     </footer>
   );

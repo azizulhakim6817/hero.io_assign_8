@@ -6,7 +6,7 @@ import heroImg from "../assets/images/hero.png";
 const Hero = () => {
   return (
     <div>
-      <div className="text-center mt-4 md:mt-8">
+      <div className="text-center mx-4 mt-4 md:mt-8">
         <h1 className="text-2xl md:text-5xl font-bold">
           We Build <br /> <span className="text-[#632ee3]">Productive </span>
           Apps
@@ -46,21 +46,21 @@ const Hero = () => {
         <div className="mt-6 mx-15 md:mx-30  lg:mx-60 xl:mx-100  grid gap-8 grid-cols-1 md:grid-cols-3 ">
           <div>
             <p className="text-[12px] text-gray-300">Total Downloads</p>
-            <h1 className="my-2 text-5xl font-bold text-white">29.6M</h1>
+            <h1 className="my-2 text-4xl font-bold text-white">29.6M</h1>
             <p className="text-[12px] text-gray-300">
               21% more than last month
             </p>
           </div>
           <div>
             <p className="text-[12px] text-gray-300">Total Reviews</p>
-            <h1 className="my-2 text-5xl font-bold text-white">906K</h1>
+            <h1 className="my-2 text-4xl font-bold text-white">906K</h1>
             <p className="text-[12px] text-gray-300">
               46% more than last month
             </p>
           </div>
           <div>
             <p className="text-[12px] text-gray-300">Active Apps</p>
-            <h1 className="my-2 text-5xl font-bold text-white">132+</h1>
+            <h1 className="my-2 text-4xl font-bold text-white">132+</h1>
             <p className="text-[12px] text-gray-300">31 more will Launch</p>
           </div>
         </div>

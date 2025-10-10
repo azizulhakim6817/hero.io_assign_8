@@ -29,10 +29,10 @@ export const router = createBrowserRouter([
         path: "/installation",
         Component: Installations,
       },
-      {
-        path: "*",
-        Component: <NotFound />,
-      },
     ],
+  },
+  {
+    path: "*",
+    Component: NotFound,
   },
 ]);

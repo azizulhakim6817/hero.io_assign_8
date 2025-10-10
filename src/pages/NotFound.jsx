@@ -16,7 +16,10 @@ const NotFound = () => {
               The App you are requesting is not found on our system. please try
               another apps
             </p>
-            <button className="btn px-20 btn-primary" onClick={() => navigate("/")}>
+            <button
+              className="btn px-20 btn-primary"
+              onClick={() => navigate("/")}
+            >
               Go Home
             </button>
           </div>

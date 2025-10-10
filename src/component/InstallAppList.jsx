@@ -45,10 +45,10 @@ const InstallAppList = ({ installApp, handleRemoveList }) => {
           </div>
 
           {/* Button */}
-          <div className="flex  justify-center md:justify-end mt-2 md:mt-0">
+          <div className="flex  justify-center md:justify-end">
             <button
               onClick={() => handleRemoveList(installApp.id)}
-              className="btn w-full md:w-30 bg-[#632ee3] text-white px-4 py-2 rounded-md hover:bg-[#4b24b8] transition-colors duration-300"
+              className="btn px-4 py-2 w-full md:w-30 bg-[#632ee3] text-white  rounded-md hover:bg-[#4b24b8] transition-colors duration-300"
             >
               Uninstall
             </button>

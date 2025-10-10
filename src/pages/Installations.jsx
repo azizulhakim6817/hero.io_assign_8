@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import InstallAppList from "../component/InstallAppList";
 import { toast } from "react-toastify";
+import { AiOutlineCodepen } from "react-icons/ai";
 
 const Installations = () => {
   const [installListApps, setInstallListApps] = useState([]);
@@ -36,24 +37,31 @@ const Installations = () => {
     <div>
       <div className="mt-8 mb-12 my-4 mx-4 lg:mx-6 xl:mx-16">
         <div className="text-center mt-4 md:mt-8">
-          <h1 className="text-xl md:text-3xl font-bold">
-            Our All Applications
-          </h1>
+          <div className="flex justify-center items-center gap-2">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Your Installed Apps
+            </h1>
+         <AiOutlineCodepen className="text-[#632ee3]" size={42} />
+          </div>
           <p className="my-4 text-[#627382] text-[14px]">
-            Explore All Apps on the Market developed by us. We code for Millions
+            Explore All Trending Apps on the Market developed by us
           </p>
         </div>
 
         <div>
           <div className="mb-4 flex justify-between items-center">
-            <h4 className="text-[#001931] text-xl font-bold">
-              <span className=" text-[#632ee3]"> ({installListApps.length})</span> Apps Found
+            <h4 className="text-[#001931]  text-[16px] md:text-xl font-bold">
+              <span className=" text-[#632ee3]">
+                {" "}
+                ({installListApps.length})
+              </span>{" "}
+              Apps Found
             </h4>
             {/* sort */}
             <select
               value={sortAppLists}
               onChange={(e) => setSortAppLists(e.target.value)}
-              className="w-[140px] md:w-[200px] border-none outline-none px-2 py-[8px] rounded-md bg-white"
+              className="w-[130px] md:w-[200px] border-none outline-none px-2 py-[8px] rounded-md bg-white"
             >
               <option value="none" disabled>
                 App by lists
