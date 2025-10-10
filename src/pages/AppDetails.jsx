@@ -3,6 +3,8 @@ import downloadIcon from "../assets/images/icon-downloads.png";
 import starIcon from "../assets/images/icon-ratings.png";
 import reviewIcon from "../assets/images/icon-review.png";
 import useApps from "../utility/useApps";
+import PacmanLoader from "react-spinners/PacmanLoader";
+import logo from "../assets/images/logo.png";
 import {
   Bar,
   BarChart,
@@ -53,7 +55,21 @@ const AppDetails = () => {
   };
 
   if (loading)
-    return <p className="text-center mt-10 text-gray-500">Loading...</p>;
+    return (
+      <div className="flex justify-center items-center gap-2 h-screen">
+        <img
+          className=" animate-spin h-[30px] md:h-[40px] w-[30px] md:w-[40px] object-cover"
+          src={logo}
+          alt=""
+        />
+        <h1 className="hidden md:block text-12px md:text-[18px] font-bold  text-[#632ee3]">
+          HERO.IO
+        </h1>
+        <div className="flex items-center justify-center ">
+          <PacmanLoader color="#632ee3" size={15} />
+        </div>
+      </div>
+    );
   if (error)
     return <p className="text-center mt-10 text-red-500">Error loading app</p>;
   if (!app)
@@ -97,9 +113,7 @@ const AppDetails = () => {
               </div>
               <div>
                 <img className="mx-auto w-8 h-8" src={starIcon} alt="star" />
-                <p className=" text-[14px] text-[#001931]">
-                  Average Ratings
-                </p>
+                <p className=" text-[14px] text-[#001931]">Average Ratings</p>
                 <h2 className="text-center text-xl md:text-2xl  font-bold text-[#001931]">
                   {app.ratingAvg}
                 </h2>

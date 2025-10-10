@@ -41,7 +41,7 @@ const Installations = () => {
             <h1 className="text-xl md:text-3xl font-bold">
               Your Installed Apps
             </h1>
-         <AiOutlineCodepen className="text-[#632ee3]" size={42} />
+            <AiOutlineCodepen className="text-[#632ee3]" size={42} />
           </div>
           <p className="my-4 text-[#627382] text-[14px]">
             Explore All Trending Apps on the Market developed by us
