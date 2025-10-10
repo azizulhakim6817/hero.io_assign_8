@@ -4,7 +4,7 @@ https://github.com/azizulhakim6817/hero.io_assign_8
 
 ## Netlify deployment live link :
 
-https://hero-io-software-app.netlify.app/
+https://hero-io-appa.netlify.app/
 
 # React + Vite
 
