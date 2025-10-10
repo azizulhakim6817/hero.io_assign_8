@@ -2,15 +2,22 @@ import { useEffect, useState } from "react";
 import InstallAppList from "../component/InstallAppList";
 import { toast } from "react-toastify";
 import { AiOutlineCodepen } from "react-icons/ai";
+import PacmanLoader from "react-spinners/PacmanLoader";
+import logo from "../assets/images/logo.png";
 
 const Installations = () => {
   const [installListApps, setInstallListApps] = useState([]);
   const [sortAppLists, setSortAppLists] = useState("none");
+  const [loading, setLoading] = useState(true);
 
-  // get localStorage data ------------------------
+  // get localStorage------------------------
   useEffect(() => {
+    setLoading(true);
     const saveList = JSON.parse(localStorage.getItem("appsData"));
-    if (saveList) return setInstallListApps(saveList);
+    if (saveList) {
+      setInstallListApps(saveList);
+    }
+    setTimeout(() => setLoading(false), 100);
   }, []);
 
   //Remove List ----------------------------------------
@@ -31,8 +38,27 @@ const Installations = () => {
     } else {
       return installListApps;
     }
+   
   };
 
+  // Loading
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center gap-2 h-[360px]">
+        <img
+          className="animate-spin h-[30px] md:h-[40px] w-[30px] md:w-[40px] object-cover"
+          src={logo}
+          alt="Loading..."
+        />
+        <h1 className="hidden md:block text-[12px] md:text-[18px] font-bold text-[#632ee3]">
+          HERO.IO
+        </h1>
+        <div className="flex items-center justify-center">
+          <PacmanLoader color="#632ee3" size={15} />
+        </div>
+      </div>
+    );
+  }
   return (
     <div>
       <div className="mt-8 mb-12 my-4 mx-4 lg:mx-6 xl:mx-16">

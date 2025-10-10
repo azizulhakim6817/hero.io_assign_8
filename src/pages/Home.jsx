@@ -10,7 +10,7 @@ const Home = () => {
 
   if (loading)
     return (
-      <div className="flex justify-center items-center gap-2 h-screen">
+      <div className="flex justify-center items-center gap-2 h-[360px]">
         <img
           className=" animate-spin h-[30px] md:h-[40px] w-[30px] md:w-[40px] object-cover"
           src={logo}

@@ -1,7 +1,7 @@
 import downloadIcon from "../assets/images/icon-downloads.png";
 import starIcon from "../assets/images/icon-ratings.png";
-
 const InstallAppList = ({ installApp, handleRemoveList }) => {
+  
   return (
     <div>
       <div className="mt-2">

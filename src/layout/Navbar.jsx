@@ -32,36 +32,38 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    isActive ? "active font-semibold" : "font-semibold"
-                  }
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/app"
-                  className={({ isActive }) =>
-                    isActive ? "active font-semibold" : "font-semibold"
-                  }
-                >
-                  Apps
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/installation"
-                  className={({ isActive }) =>
-                    isActive ? "active font-semibold" : "font-semibold"
-                  }
-                >
-                  installation
-                </NavLink>
-              </li>
+             <li>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? "active font-semibold" : "font-semibold"
+                }
+              >
+                <House size={18} />
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/app"
+                className={({ isActive }) =>
+                  isActive ? "active font-semibold" : "font-semibold"
+                }
+              >
+                <FaAppStore size={20} />
+                Apps
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "active font-semibold" : "font-semibold"
+                }
+                to="/installation"
+              >
+                <MdInstallDesktop size={18}/>Installation
+              </NavLink>
+            </li>
             </ul>
           </div>
           <Link to="/" className="flex justify-start items-center gap-1">
