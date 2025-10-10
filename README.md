@@ -4,7 +4,7 @@ https://github.com/azizulhakim6817/hero.io_assign_8
 
 # React + Vite
 
-# Project Name:
+# Project Name and Description 
 
 Hero.io
 
@@ -12,8 +12,8 @@ Hero.io
 A modern, responsive web application built with React (or Next.js) that displays a collection of apps, allows installation tracking via localStorage, includes dynamic routing, sorting, searching, charts, and smooth navigation — following the given Figma design.
 
 
-### 🧱 Features Overview: 
-# 1. Layout & Data Design
+# 🧱 Features Overview: 
+###  1. Layout & Data Design
 Header: 
 Includes
 ✅ Logo (navigates to Home on click)
@@ -21,7 +21,7 @@ Includes
 ✅ Active route highlight
 ✅ “Contribution” button linking to your GitHub profile
 
-### Footer: 
+# Footer: 
 Custom-designed footer with creative styling and relevant links/social icons.
 App Data (JSON)
 A JSON array of 12–20 app objects with the structure:
@@ -46,8 +46,8 @@ A JSON array of 12–20 app objects with the structure:
 }
 ```
 
-### 2. 🏠 Home Page
-# Banner Section:
+# 2. 🏠 Home Page
+### Banner Section:
 Centered heading and description
 Buttons:
 🏬 “App Store” → redirects to App Store
@@ -64,7 +64,7 @@ Download count
 Average rating
 “Show All” button navigates to the All Apps page.
 
-### 3. 📱 All Apps Page
+# 3. 📱 All Apps Page
 Title Section: Title + Subtitle (based on Figma)
 Search & State Section:
 Total apps count displayed on the left
@@ -72,7 +72,7 @@ Search bar on the right
 Live search (case-insensitive)
 “No App Found” message if no match
 
-# App Cards:
+### App Cards:
 Displays all apps with:
 Image
 Title
@@ -80,7 +80,7 @@ Download count
 Average rating
 Clicking a card → navigates to App Details page.
 
-### 4. 📊 App Details Page
+# 4. 📊 App Details Page
 App Info Section:
 
 Image (left side)
@@ -91,14 +91,14 @@ Button becomes disabled
 Shows success toast
 App saved to localStorage
 
-# Review Chart:
+### Review Chart:
 Responsive chart built using Recharts
 Displays app’s rating distribution
 
 App Description:
 Full app details displayed below (as per Figma layout)
 
-### 5. 🧩 My Installation Page
+# 5. 🧩 My Installation Page
 Lists all installed apps (from localStorage)
 Each app card includes:
 Image, Title, Rating, Downloads
@@ -109,7 +109,7 @@ Sorting Dropdown:
 High-Low: Sorts by downloads descending
 Low-High: Sorts by downloads ascending
 
-### 6. ⚠️ Error & Loading States
+# 6. ⚠️ Error & Loading States
 Custom 404 Page for invalid routes
 Loading Animations shown during:
 Page navigation
@@ -152,7 +152,7 @@ npm run build
 Preview Production Build
 npm run preview
 
-### 🌩 Deployment
+# 🌩 Deployment
 Deploy easily to:
 Vercel
 Netlify
